@@ -1,18 +1,9 @@
 #ifndef _COMMON_H_
 #define _COMMON_H_
 
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
-#include<assert.h>
 #include<stdlib.h>
-#include<string.h>
-#include<stdbool.h>
+#include<assert.h>
 
-#define ElemType int
-void Swap(ElemType *a, ElemType *b)
-{
-	ElemType tmp = *a;
-	*a = *b;
-	*b = tmp;
-}
-
-#endif //_COMMON_H_
+#endif // _COMMON_H_
